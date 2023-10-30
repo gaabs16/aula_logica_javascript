@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol</title>
+</head>
+<body>
+    <script>
+        let golCorinthias = parseInt(prompt("digite a quantidade de gols: " ));
+        let golPalmeiras = parseInt(prompt("digite a quantidade de gols: " ));
+
+
+        document.write("o placar de: " + golCorinthias + "-" + golPalmeiras + "<br>")
+
+        if(golCorinthias>golPalmeiras){
+            document.write("o corinthians foi campeao da libertadores ")
+        }else if(golCorinthias<golPalmeiras){
+            document.write("o palmeiras foi campeao da libertadores")
+        }else{
+            document.write("empatou")
+        }
+    </script>
+</body>
+</html>
